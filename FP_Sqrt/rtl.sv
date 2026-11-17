@@ -104,6 +104,7 @@ module fp_sqrt (
         significand = 24'b0;
         unbiased_exp = 10'sd0;
         shift_count = 0;
+        i=0;
 
         adjusted_significand = 25'b0;
         adjusted_exp = 10'sd0;
